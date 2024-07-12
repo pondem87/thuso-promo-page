@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#header nav {
+    @apply bg-gray-700 px-4 md:px-36 py-4 md:flex justify-between items-center
+}
+
+
+#header nav ul > li {
+    @apply inline-block text-gray-300 rounded-md px-2 py-1
+}
+
+#header nav ul > li:nth-child(1) {
+    @apply mr-2
+}
+
+#header nav ul > li:hover {
+    @apply bg-gray-900 cursor-pointer
+}
+
+.logo-image-container {
+    @apply w-80 h-auto overflow-hidden
+}
+
+.logo-image {
+    @apply object-contain
+}
+
+#banner {
+    @apply flex justify-center
+}
+
+#banner .image-container {
+    @apply lg:h-96 overflow-hidden
+}
+
+
+#section-1 {
+    @apply bg-gray-900 lg:px-80 mb-5
+}
+
+#section-1 h1 {
+    @apply text-gray-300 text-3xl font-semibold text-center py-10
+}
+
+#section-2 {
+    @apply lg:px-56 xl:px-80
+}
+
+#section-2 .grid-icon-box {
+    @apply w-72 p-5 border-8 border-gray-300 rounded-2xl flex justify-center items-center text-gray-300
+}
+
+#section-2 .grid-description-box {
+    @apply border-8 border-gray-300 rounded-2xl p-5 flex items-center
+}
+
+#section-2 .grid-description-box p {
+    @apply text-xl text-gray-300 text-center font-semibold
+}
+
+#section-3 {
+    @apply  px-4 md:px-36 lg:px-56 mb-10
+}
+
+#section-3 .cards-grid {
+    @apply grid md:grid-cols-2 md:gap-4 lg:grid-cols-3 lg:gap-8 xl:grid-cols-4
+}
+
+#section-3 .card {
+    @apply shadow-lg my-5 p-5 text-center flex flex-col justify-between
+}
+
+#section-3 .card .title {
+    @apply text-3xl text-amber-900 font-bold
+}
+
+#section-3 .card .description {
+    @apply text-gray-400 font-semibold
+}
+
+#section-3 .card .price {
+    @apply text-gray-400 font-semibold text-right bg-gradient-to-r from-transparent to-gray-950 pr-2 mt-5 overflow-hidden
+}
+
+.lite {
+    @apply bg-blue-900
+}
+
+.standard {
+    @apply bg-cyan-800
+}
+
+.unleashed {
+    @apply bg-cyan-950
+}
+
+.whatsapp {
+    @apply bg-green-700
+}
+
+.footer-content {
+    @apply px-36 py-10 flex gap-12 text-gray-300 w-full justify-stretch
+}
+
+.footer-content a:hover {
+    @apply underline
+}

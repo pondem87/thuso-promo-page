@@ -1,0 +1,29 @@
+{
+  "name": "thuso-promo-page",
+  "version": "1.0.0",
+  "description": "Promotional page for Thuso",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss build -i ./src/global.css -o ./public/global.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pondem87/thuso-promo-page.git"
+  },
+  "keywords": [
+    "thuso",
+    "AI",
+    "LLM",
+    "business",
+    "chatbot"
+  ],
+  "author": "tendai p. pfidze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pondem87/thuso-promo-page/issues"
+  },
+  "homepage": "https://github.com/pondem87/thuso-promo-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
